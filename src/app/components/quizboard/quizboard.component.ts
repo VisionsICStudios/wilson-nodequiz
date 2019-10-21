@@ -12,7 +12,7 @@
 
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { ApiMultiService } from '../../../../services/api.multi.service';
+import { ApiSelectionService } from '../../../../services/api.selection.service';
 import { Router } from '@angular/router';
 
 @Component({
@@ -49,7 +49,7 @@ import { Router } from '@angular/router';
 
     `
   ],
-  providers: [ApiMultiService]
+  providers: [ApiSelectionService]
 })
 
 export class QuizboardComponent implements OnInit {
@@ -57,10 +57,10 @@ export class QuizboardComponent implements OnInit {
    selection: any;
    selections: { [x: string]: any; hasOwnProperty: (arg0: string) => any; };
 
-  constructor(private apiMultiService: ApiMultiService, private router: Router) {}
+  constructor(private apiSelectionService: ApiSelectionService, private router: Router) {}
 
   ngOnInit() {
-    this.apiMultiService.get().subscribe((res: any) => {
+    this.apiSelectionService.get().subscribe((res: any) => {
         this.selections = res;
       });
   }

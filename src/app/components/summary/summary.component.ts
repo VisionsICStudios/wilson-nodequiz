@@ -9,7 +9,7 @@
 */
 
 import { Component, OnInit } from '@angular/core';
-import { ApiMultiService } from '../../../../services/api.multi.service';
+import { ApiMultiService } from '../../../../services/api.summary.service';
 
 @Component({
   selector: 'app-summary',

@@ -15,8 +15,8 @@ import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { MatDialog } from '@angular/material/dialog';
 
-import { ApiMultiService } from '../../../services/api.multi.service';
-import { ApiSingleService } from '../../../services/api.single.service';
+import { ApiMultiService } from '../../../services/api.summary.service';
+import { ApiSingleService } from '../../../services/api.slideshow.service';
 import { CookieService } from 'ngx-cookie-service';
 
 import { ResultsComponent } from '../shared/results/results.component';

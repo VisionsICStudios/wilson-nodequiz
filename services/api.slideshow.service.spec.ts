@@ -11,13 +11,13 @@
 
 import { TestBed } from '@angular/core/testing';
 
-import { ApiSingleService } from './api.single.service';
+import { ApiSlideshowService } from './api.slideshow.service';
 
 describe('ApiSingleService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: ApiSingleService = TestBed.get(ApiSingleService);
+    const service: ApiSlideshowService = TestBed.get(ApiSlideshowService);
     expect(service).toBeTruthy();
   });
 });

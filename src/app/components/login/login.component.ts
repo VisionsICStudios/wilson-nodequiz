@@ -9,11 +9,10 @@
 */
 
 /* tslint:disable: max-line-length */
+// tslint:disable: no-string-literal
 
 import { Component, OnInit } from '@angular/core';
 import { CookieService } from 'ngx-cookie-service';
-import { ApiMultiService } from './../../../../services/api.multi.service';
-import { ApiSingleService } from '../../../../services/api.single.service';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
@@ -97,14 +96,12 @@ import { HttpClient } from '@angular/common/http';
 
 export class LoginComponent implements OnInit {
   errorMessage: string;
-  userLogin: string;
+  employeeLogin: string;
   form: FormGroup;
 
   constructor(
     private cookie: CookieService,
     private router: Router,
-    private apiSingle: ApiSingleService,
-    private apiMulti: ApiMultiService,
     private fb: FormBuilder,
     private http: HttpClient
   ) {}
@@ -122,12 +119,15 @@ export class LoginComponent implements OnInit {
   }
 
   onSubmit() {
-    const employeeId = this.form.controls.employeeId.value;
+    const apiEmployeeURL = 'http://localhost:3000/api/employee/';
 
-    this.http.get('/api/employees/' + employeeId).subscribe(res => {
+    const employeeId = this.form.controls['employeeId'].value;
+
+    this.http.get(apiEmployeeURL + employeeId).subscribe(res => {
       if (res) {
-        this.cookie.set('isAuthenticated', 'true', 7);
-        this.router.navigate(['/']);
+        this.cookie.set('isAuthenticated', 'true', 1);
+        this.cookie.set(employeeId, 'true', 1);
+        this.router.navigate(['/quizboard']);
       } else {
         this.errorMessage = 'Invalid Employee ID';
       }

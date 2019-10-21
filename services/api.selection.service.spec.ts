@@ -1,12 +1,12 @@
 import { TestBed } from '@angular/core/testing';
 
-import { ApiMultiService } from './api.multi.service';
+import { SelectionService } from './api.selection.service';
 
-describe('ApiMultiService', () => {
+describe('SelectionService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: ApiMultiService = TestBed.get(ApiMultiService);
+    const service: SelectionService = TestBed.get(SelectionService);
     expect(service).toBeTruthy();
   });
 });
