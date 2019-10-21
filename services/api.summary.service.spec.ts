@@ -1,3 +1,13 @@
+/*
+============================================
+; Title: api.summary.service.spec.ts (Week 5)
+; Author: Professor Krasso
+; Modified By: Aaron Wilson
+; Date: 20 October 2019
+; Description: MEAN NodeQuiz Service.
+;===========================================
+*/
+
 import { TestBed } from '@angular/core/testing';
 
 import { ApiSummaryService } from './api.summary.service';
