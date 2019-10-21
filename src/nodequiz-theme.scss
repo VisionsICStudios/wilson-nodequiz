@@ -1,0 +1,42 @@
+/*
+============================================
+; Title:  nodequiz-theme.scss (Week 5)
+; Author: Professor Krasso
+; Modified: Aaron Wilson
+; Date: 20 October 2019
+; Description: MEAN NodeQuiz Style Sheet.
+;===========================================
+*/
+
+@import '~@angular/material/theming';
+
+@include mat-core();
+
+$nodequiz-theme-primary: mat-palette($mat-grey, 50);
+$nodequiz-theme-accent: mat-palette($mat-green, 800);
+$nodequiz-theme-warn: mat-palette($mat-red);
+
+$nodequiz-theme: mat-light-theme($nodequiz-theme-primary, $nodequiz-theme-accent, $nodequiz-theme-warn);
+
+.full-width {
+  width: 100%;
+}
+
+body {
+  background-color: LawnGreen;
+}
+
+// ngButtons to match Angular Material color theme
+body .ui-button {
+  background-color: LawnGreen;
+  border-color: LawnGreen;
+  width: 100%;
+}
+
+body .ui-button:enabled:hover {
+  background-color: YellowGreen;
+  color: Black;
+  border-color: YellowGreen;
+}
+
+@include angular-material-theme($nodequiz-theme);

@@ -1,0 +1,15 @@
+/*
+============================================
+; Title:  styles.css (Week 5)
+; Author: Professor Krasso
+; Modified: Aaron Wilson
+; Date: 20 October 2019
+; Description: MEAN NodeQuiz Style Sheet.
+;===========================================
+*/
+
+@import 'nodequiz-theme';
+
+body {
+  background-color: forestgreen
+}

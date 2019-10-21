@@ -1,0 +1,265 @@
+{
+  "quizId": "2",
+  "name": "JSON Quiz",
+  "label": "JSON",
+  "slides": [
+    {
+      "slide": "../assets/images/slides-json/image1.png"
+    },
+    {
+      "slide": "../assets/images/slides-json/image2.png"
+    },
+    {
+      "slide": "../assets/images/slides-json/image3.png"
+    },
+    {
+      "slide": "../assets/images/slides-json/image4.png"
+    },
+    {
+      "slide": "../assets/images/slides-json/image5.png"
+    },
+    {
+      "slide": "../assets/images/slides-json/image6.png"
+    },
+    {
+      "slide": "../assets/images/slides-json/image7.png"
+    },
+    {
+      "slide": "../assets/images/slides-json/image8.png"
+    },
+    {
+      "slide": "../assets/images/slides-json/image9.png"
+    },
+    {
+      "slide": "../assets/images/slides-json/image10.png"
+    },
+    {
+      "slide": "../assets/images/slides-json/image11.png"
+    },
+    {
+      "slide": "../assets/images/slides-json/image12.png"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does the statement mean that JSON is completely language-agnostic?",
+      "correct": "It is universal and can be used with any language",
+      "answers": [
+        {
+          "answer": "It is language-specific and otherwise strict",
+          "isCorrect": false
+        },
+        {
+          "answer": "It is universal and can be used with any language",
+          "isCorrect": true
+        },
+        {
+          "answer": "It is not a language at all",
+          "isCorrect": false
+        },
+        {
+          "answer": "It is only a data structure",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "JSON is a data format used most commonly by two very popular web services, which are they?",
+      "correct": "SOAP and REST",
+      "answers": [
+        {
+          "answer": "AWS and Google",
+          "isCorrect": true
+        },
+        {
+          "answer": "Twitter and Git",
+          "isCorrect": false
+        },
+        {
+          "answer": "Soap and shampoo",
+          "isCorrect": false
+        },
+        {
+          "answer": "SOAP and REST",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "In the API realm, how does a JSON API differ from a SOAP API?",
+      "correct": "JSON is an extremely versatile data format used primarily in a REST environment",
+      "answers": [
+        {
+          "answer": "JSON is very limited, and can only use XML as its language",
+          "isCorrect": false
+        },
+        {
+          "answer": "JSON is only a protocol",
+          "isCorrect": false
+        },
+        {
+          "answer": "JSON uses Java as its primary language of choice",
+          "isCorrect": false
+        },
+        {
+          "answer": "JSON is an extremely versatile data format used primarily in a REST environment",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "What does the acronym JSON stand for?",
+      "correct": "JavaScript Object Notation",
+      "answers": [
+        {
+          "answer": "Just Some Ordinary Notation",
+          "isCorrect": false
+        },
+        {
+          "answer": "JavaScript Object Notation",
+          "isCorrect": true
+        },
+        {
+          "answer": "Java Series Object Notes",
+          "isCorrect": false
+        },
+        {
+          "answer": "jQuery Syntax Object Nodes",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "In order to insert JSON data into HTTP header, it first needs to be what?",
+      "correct": "Parsed",
+      "answers": [
+        {
+          "answer": "Extracted",
+          "isCorrect": false
+        },
+        {
+          "answer": "Converted",
+          "isCorrect": false
+        },
+        {
+          "answer": "Parsed",
+          "isCorrect": true
+        },
+        {
+          "answer": "Used",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "When using JSON in the HTTP header, what is the (content-type) specified as?",
+      "correct": "application/json",
+      "answers": [
+        {
+          "answer": "application/json",
+          "isCorrect": true
+        },
+        {
+          "answer": "document/json",
+          "isCorrect": false
+        },
+        {
+          "answer": "html/json",
+          "isCorrect": false
+        },
+        {
+          "answer": "webpage/xml",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the key component that make up the JSON request body?",
+      "correct": "Key/value pairs",
+      "answers": [
+        {
+          "answer": "HTML calls",
+          "isCorrect": false
+        },
+        {
+          "answer": "Elements on the HTML tag",
+          "isCorrect": false
+        },
+        {
+          "answer": "the DOM (Document Object Model)",
+          "isCorrect": false
+        },
+        {
+          "answer": "Key/value pairs",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "Who is ultimately responsible for how the JSON response body will come out?",
+      "correct": "The developer",
+      "answers": [
+        {
+          "answer": "The developer",
+          "isCorrect": true
+        },
+        {
+          "answer": "The end-user",
+          "isCorrect": false
+        },
+        {
+          "answer": "The browser",
+          "isCorrect": false
+        },
+        {
+          "answer": "The DOM (Document Object Model)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "The JSON request and response body are almost identical, but what is the difference?",
+      "correct": "The response body get coupled with a status (for unit testing)",
+      "answers": [
+        {
+          "answer": "There is no real difference",
+          "isCorrect": false
+        },
+        {
+          "answer": "The request is JSON, the response is XML",
+          "isCorrect": false
+        },
+        {
+          "answer": "The response outputs a webpage",
+          "isCorrect": false
+        },
+        {
+          "answer": "The response body get coupled with a status (for unit testing)",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "When the response body outputs JSON, it is in what JSON form?",
+      "correct": "A JSON data object",
+      "answers": [
+        {
+          "answer": "A JSON data object",
+          "isCorrect": true
+        },
+        {
+          "answer": "A JSON file",
+          "isCorrect": false
+        },
+        {
+          "answer": "A language called JSON",
+          "isCorrect": false
+        },
+        {
+          "answer": "HTML",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

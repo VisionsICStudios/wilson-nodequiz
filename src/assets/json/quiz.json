@@ -1,0 +1,732 @@
+{
+  "_id": {
+    "$oid": "5da412e8fa4086c8717cd467"
+  },
+  "quizId": "1",
+  "name": "The SDLC of Waterfall Quiz",
+  "label": "waterfall",
+  "slides": [
+    "slide": "../assets/images/slides-waterfall/image1.png",
+    "slide_2": "../assets/images/slides-waterfall/image2.png",
+    "slide_3": "../assets/images/slides-waterfall/image3.png",
+    "slide_4": "../assets/images/slides-waterfall/image4.png",
+    "slide_5": "../assets/images/slides-waterfall/image5.png",
+    "slide_6": "../assets/images/slides-waterfall/image6.png",
+    "slide_7": "../assets/images/slides-waterfall/image7.png",
+    "slide_8": "../assets/images/slides-waterfall/image8.png",
+    "slide_9": "../assets/images/slides-waterfall/image9.png",
+    "slide_10": "../assets/images/slides-waterfall/image10.png",
+    "slide_11": "../assets/images/slides-waterfall/image11.png",
+    "slide_12": "../assets/images/slides-waterfall/image12.png"
+  ],
+  "questions": [
+    {
+      "question": "How many stages are in the waterfall SDLC method? ",
+      "correct": "7",
+      "answers": [
+        {
+          "answer": "5",
+          "isCorrect": false
+        },
+        {
+          "answer": "7",
+          "isCorrect": true
+        },
+        {
+          "answer": "3",
+          "isCorrect": false
+        },
+        {
+          "answer": "10",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "In the Project Planning Stage in waterfall, what is the role of the UID?",
+      "correct": "Plan the website",
+      "answers": [
+        {
+          "answer": "Plan the website ",
+          "isCorrect": true
+        },
+        {
+          "answer": "Gather the artifacts (images, graphics, and audio) ",
+          "isCorrect": false
+        },
+        {
+          "answer": "Rough draft storyboard, mood board, and wire frames ",
+          "isCorrect": false
+        },
+        {
+          "answer": "Watch other team members do work ",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the main overall deliverable in stage 2 of the 7 stages in waterfall? ",
+      "correct": "Target audience analysis",
+      "answers": [
+        {
+          "answer": "Early application testing ",
+          "isCorrect": false
+        },
+        {
+          "answer": "Application analysis ",
+          "isCorrect": false
+        },
+        {
+          "answer": "Target audience analysis",
+          "isCorrect": true
+        },
+        {
+          "answer": "Deliver a technical design document ",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the first key to the Systems Design Stage? ",
+      "correct": "Gathering and organizing ideas",
+      "answers": [
+        {
+          "answer": "Conceptual Design Document (CDD)",
+          "isCorrect": false
+        },
+        {
+          "answer": "Gathering and organizing ideas",
+          "isCorrect": true
+        },
+        {
+          "answer": "Creating a Style Guide ",
+          "isCorrect": false
+        },
+        {
+          "answer": "Writing sample code ",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the main goal of the Implementation Stage? ",
+      "correct": "Incubated version of the application/website",
+      "answers": [
+        {
+          "answer": "Implement your ideas into action ",
+          "isCorrect": false
+        },
+        {
+          "answer": "Developers begin to compile code ",
+          "isCorrect": false
+        },
+        {
+          "answer": "Target a specific audience for the application ",
+          "isCorrect": false
+        },
+        {
+          "answer": "Incubated version of the application/website",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "In the integration and testing stage, what new role does the UID take on? ",
+      "correct": "Tester",
+      "answers": [
+        {
+          "answer": "Tester",
+          "isCorrect": true
+        },
+        {
+          "answer": "Developer",
+          "isCorrect": false
+        },
+        {
+          "answer": "Photographer",
+          "isCorrect": false
+        },
+        {
+          "answer": "Analyst",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "In stage 6 of the SDLC waterfall method, the main deliverable is?",
+      "correct": "An environment specification definition",
+      "answers": [
+        {
+          "answer": "HTML webpages on a server",
+          "isCorrect": false
+        },
+        {
+          "answer": "A web server farm",
+          "isCorrect": false
+        },
+        {
+          "answer": "A specific production environment chosen by the client",
+          "isCorrect": false
+        },
+        {
+          "answer": "An environment specification definition",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "The main role of the UID in the final stage of waterfall is?",
+      "correct": "Responsibility and upkeep of the website artifacts",
+      "answers": [
+        {
+          "answer": "Responsibility and upkeep of the website artifacts",
+          "isCorrect": true
+        },
+        {
+          "answer": "There is no real difference",
+          "isCorrect": false
+        },
+        {
+          "answer": "The request is JSON, the response is XML",
+          "isCorrect": false
+        },
+        {
+          "answer": "The response outputs a webpage",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What percentage of the world currently still uses the waterfall method?",
+      "correct": "9%",
+      "answers": [
+        {
+          "answer": "15%",
+          "isCorrect": false
+        },
+        {
+          "answer": "7%",
+          "isCorrect": false
+        },
+        {
+          "answer": "24%",
+          "isCorrect": false
+        },
+        {
+          "answer": "9%",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "What is the ideal project setting in SDLC waterfall method suited for?",
+      "correct": "Smaller projects",
+      "answers": [
+        {
+          "answer": "Smaller projects",
+          "isCorrect": true
+        },
+        {
+          "answer": "Larger projects",
+          "isCorrect": false
+        },
+        {
+          "answer": "Every project",
+          "isCorrect": false
+        },
+        {
+          "answer": "Enterprise level projects",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
+{
+  "_id": {
+    "$oid": "5da4134efa4086c8717cd468"
+  },
+  "quizId": "2",
+  "name": "JSON Quiz",
+  "label": "JSON",
+  "slides": [
+    "slide_1": "../assets/images/slides-json/image1.png",
+    "slide_2": "../assets/images/slides-json/image2.png",
+    "slide_3": "../assets/images/slides-json/image3.png",
+    "slide_4": "../assets/images/slides-json/image4.png",
+    "slide_5": "../assets/images/slides-json/image5.png",
+    "slide_6": "../assets/images/slides-json/image6.png",
+    "slide_7": "../assets/images/slides-json/image7.png",
+    "slide_8": "../assets/images/slides-json/image8.png",
+    "slide_9": "../assets/images/slides-json/image9.png",
+    "slide_10": "../assets/images/slides-json/image10.png",
+    "slide_11": "../assets/images/slides-json/image11.png",
+    "slide_12": "../assets/images/slides-json/image12.png"
+  ],
+  "questions": [
+    {
+      "question": "What does the statement mean that JSON is completely language-agnostic?",
+      "correct": "It is universal and can be used with any language",
+      "answers": [
+        {
+          "answer": "It is language-specific and otherwise strict",
+          "isCorrect": false
+        },
+        {
+          "answer": "It is universal and can be used with any language",
+          "isCorrect": true
+        },
+        {
+          "answer": "It is not a language at all",
+          "isCorrect": false
+        },
+        {
+          "answer": "It is only a data structure",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "JSON is a data format used most commonly by two very popular web services, which are they?",
+      "correct": "SOAP and REST",
+      "answers": [
+        {
+          "answer": "AWS and Google",
+          "isCorrect": true
+        },
+        {
+          "answer": "Twitter and Git",
+          "isCorrect": false
+        },
+        {
+          "answer": "Soap and shampoo",
+          "isCorrect": false
+        },
+        {
+          "answer": "SOAP and REST",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "In the API realm, how does a JSON API differ from a SOAP API?",
+      "correct": "JSON is an extremely versatile data format used primarily in a REST environment",
+      "answers": [
+        {
+          "answer": "JSON is very limited, and can only use XML as its language",
+          "isCorrect": false
+        },
+        {
+          "answer": "JSON is only a protocol",
+          "isCorrect": false
+        },
+        {
+          "answer": "JSON uses Java as its primary language of choice",
+          "isCorrect": false
+        },
+        {
+          "answer": "JSON is an extremely versatile data format used primarily in a REST environment",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "What does the acronym JSON stand for?",
+      "correct": "JavaScript Object Notation",
+      "answers": [
+        {
+          "answer": "Just Some Ordinary Notation",
+          "isCorrect": false
+        },
+        {
+          "answer": "JavaScript Object Notation",
+          "isCorrect": true
+        },
+        {
+          "answer": "Java Series Object Notes",
+          "isCorrect": false
+        },
+        {
+          "answer": "jQuery Syntax Object Nodes",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "In order to insert JSON data into HTTP header, it first needs to be what?",
+      "correct": "Parsed",
+      "answers": [
+        {
+          "answer": "Extracted",
+          "isCorrect": false
+        },
+        {
+          "answer": "Converted",
+          "isCorrect": false
+        },
+        {
+          "answer": "Parsed",
+          "isCorrect": true
+        },
+        {
+          "answer": "Used",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "When using JSON in the HTTP header, what is the (content-type) specified as?",
+      "correct": "application/json",
+      "answers": [
+        {
+          "answer": "application/json",
+          "isCorrect": true
+        },
+        {
+          "answer": "document/json",
+          "isCorrect": false
+        },
+        {
+          "answer": "html/json",
+          "isCorrect": false
+        },
+        {
+          "answer": "webpage/xml",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the key component that make up the JSON request body?",
+      "correct": "Key/value pairs",
+      "answers": [
+        {
+          "answer": "HTML calls",
+          "isCorrect": false
+        },
+        {
+          "answer": "Elements on the HTML tag",
+          "isCorrect": false
+        },
+        {
+          "answer": "the DOM (Document Object Model)",
+          "isCorrect": false
+        },
+        {
+          "answer": "Key/value pairs",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "Who is ultimately responsible for how the JSON response body will come out?",
+      "correct": "The developer",
+      "answers": [
+        {
+          "answer": "The developer",
+          "isCorrect": true
+        },
+        {
+          "answer": "The end-user",
+          "isCorrect": false
+        },
+        {
+          "answer": "The browser",
+          "isCorrect": false
+        },
+        {
+          "answer": "The DOM (Document Object Model)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "The JSON request and response body are almost identical, but what is the difference?",
+      "correct": "The response body get coupled with a status (for unit testing)",
+      "answers": [
+        {
+          "answer": "There is no real difference",
+          "isCorrect": false
+        },
+        {
+          "answer": "The request is JSON, the response is XML",
+          "isCorrect": false
+        },
+        {
+          "answer": "The response outputs a webpage",
+          "isCorrect": false
+        },
+        {
+          "answer": "The response body get coupled with a status (for unit testing)",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "When the response body outputs JSON, it is in what JSON form?",
+      "correct": "A JSON data object",
+      "answers": [
+        {
+          "answer": "A JSON data object",
+          "isCorrect": true
+        },
+        {
+          "answer": "A JSON file",
+          "isCorrect": false
+        },
+        {
+          "answer": "A language called JSON",
+          "isCorrect": false
+        },
+        {
+          "answer": "HTML",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
+{
+  "_id": {
+    "$oid": "5da41373fa4086c8717cd469"
+  },
+  "quizId": "3",
+  "name": "Continuous Integration Quiz",
+  "label": "CI",
+  "slides": [
+    "slide_1": "../assets/images/slides-integration/image1.png",
+    "slide_2": "../assets/images/slides-integration/image2.png",
+    "slide_3": "../assets/images/slides-integration/image3.png",
+    "slide_4": "../assets/images/slides-integration/image4.png",
+    "slide_5": "../assets/images/slides-integration/image5.png",
+    "slide_6": "../assets/images/slides-integration/image6.png",
+    "slide_7": "../assets/images/slides-integration/image7.png",
+    "slide_8": "../assets/images/slides-integration/image8.png",
+    "slide_9": "../assets/images/slides-integration/image9.png",
+    "slide_10": "../assets/images/slides-integration/image10.png",
+    "slide_11": "../assets/images/slides-integration/image11.png",
+    "slide_12": "../assets/images/slides-integration/image12.png"
+  ],
+  "questions": [
+    {
+      "question": "In order to achieve success in CI, developers must have what ability?",
+      "correct": "To branch",
+      "answers": [
+        {
+          "answer": "Store files",
+          "isCorrect": false
+        },
+        {
+          "answer": "To branch",
+          "isCorrect": true
+        },
+        {
+          "answer": "To add more code",
+          "isCorrect": false
+        },
+        {
+          "answer": "Adapt",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "According to page 3 of the CI presentation, what are the 2 CI killers?",
+      "correct": "Too many branches and isolation",
+      "answers": [
+        {
+          "answer": "Too many branches and isolation",
+          "isCorrect": true
+        },
+        {
+          "answer": "Not enough money and lack of time",
+          "isCorrect": false
+        },
+        {
+          "answer": "Growth and change",
+          "isCorrect": false
+        },
+        {
+          "answer": "Tree cutters and a weed whacker",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "When does a downward spiral occur in CI?",
+      "correct": "When merging is done at the end of a project",
+      "answers": [
+        {
+          "answer": "When three’s a crowd",
+          "isCorrect": false
+        },
+        {
+          "answer": "When the developer’s over-budget a project",
+          "isCorrect": false
+        },
+        {
+          "answer": "dWhen developers try to be designers",
+          "isCorrect": false
+        },
+        {
+          "answer": "When merging is done at the end of a project",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "What caused most DevOps teams to use CI?",
+      "correct": "Forced transition",
+      "answers": [
+        {
+          "answer": "Technology",
+          "isCorrect": false
+        },
+        {
+          "answer": "Forced transition",
+          "isCorrect": true
+        },
+        {
+          "answer": "When developers changed coding strategies",
+          "isCorrect": false
+        },
+        {
+          "answer": "When ES2015 was released",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Successful CI consists of what two (2) factors?",
+      "correct": "Practice and solid techniques",
+      "answers": [
+        {
+          "answer": "Budgeting time and money",
+          "isCorrect": false
+        },
+        {
+          "answer": "Good coders and expensive hardware",
+          "isCorrect": false
+        },
+        {
+          "answer": "Practice and solid techniques",
+          "isCorrect": true
+        },
+        {
+          "answer": "Quality time and life lessons",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "In CI, optimizing for individual productivity means what?",
+      "correct": "Every developer works in their own private branch",
+      "answers": [
+        {
+          "answer": "Every developer works in their own private branch",
+          "isCorrect": true
+        },
+        {
+          "answer": "Hire a full-stack web developer to get the project done",
+          "isCorrect": false
+        },
+        {
+          "answer": "Eliminating useless code on a team member’s branch",
+          "isCorrect": false
+        },
+        {
+          "answer": "Developers bring work home when they need to catch up",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "When optimizing for team productivity in CI, team members do what?",
+      "correct": "All work together in one common area",
+      "answers": [
+        {
+          "answer": "Work continuous hours until the project is completed",
+          "isCorrect": false
+        },
+        {
+          "answer": "All take one individual portion of the overall project",
+          "isCorrect": false
+        },
+        {
+          "answer": "Get together and brainstorm",
+          "isCorrect": false
+        },
+        {
+          "answer": "All work together in one common area",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "The ultimate goal of CI for all DevOps teams’ members is?",
+      "correct": "Achieve single-piece flow",
+      "answers": [
+        {
+          "answer": "Achieve single-piece flow",
+          "isCorrect": true
+        },
+        {
+          "answer": "To make more money",
+          "isCorrect": false
+        },
+        {
+          "answer": "Overall core strength and trunk control",
+          "isCorrect": false
+        },
+        {
+          "answer": "To finish the project and move on to the next one",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What CI strategy best aids in the correction process?",
+      "correct": "Frequent commits to the trunk",
+      "answers": [
+        {
+          "answer": "Pay extra to have an experienced developer fix it",
+          "isCorrect": false
+        },
+        {
+          "answer": "Pinpointing the person who messed up the project",
+          "isCorrect": false
+        },
+        {
+          "answer": "Refresh the codebase",
+          "isCorrect": false
+        },
+        {
+          "answer": "Frequent commits to the trunk",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "What are the four pillars of the CI process?",
+      "correct": "Build, Test, Deploy, Release",
+      "answers": [
+        {
+          "answer": "Build, Test, Deploy, Release",
+          "isCorrect": true
+        },
+        {
+          "answer": "Develop, Scale, Check, Launch",
+          "isCorrect": false
+        },
+        {
+          "answer": "Code, Code, Code, Code",
+          "isCorrect": false
+        },
+        {
+          "answer": "Design, Code, Implement, Finalize",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

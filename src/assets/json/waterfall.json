@@ -1,0 +1,265 @@
+{
+  "quizId": "1",
+  "name": "The SDLC of Waterfall Quiz",
+  "label": "waterfall",
+  "slides": [
+    {
+      "slide": "../assets/images/slides-waterfall/image1.png"
+    },
+    {
+      "slide": "../assets/images/slides-waterfall/image2.png"
+    },
+    {
+      "slide": "../assets/images/slides-waterfall/image3.png"
+    },
+    {
+      "slide": "../assets/images/slides-waterfall/image4.png"
+    },
+    {
+      "slide": "../assets/images/slides-waterfall/image5.png"
+    },
+    {
+      "slide": "../assets/images/slides-waterfall/image6.png"
+    },
+    {
+      "slide": "../assets/images/slides-waterfall/image7.png"
+    },
+    {
+      "slide": "../assets/images/slides-waterfall/image8.png"
+    },
+    {
+      "slide": "../assets/images/slides-waterfall/image9.png"
+    },
+    {
+      "slide": "../assets/images/slides-waterfall/image10.png"
+    },
+    {
+      "slide": "../assets/images/slides-waterfall/image11.png"
+    },
+    {
+      "slide": "../assets/images/slides-waterfall/image12.png"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How many stages are in the waterfall SDLC method? ",
+      "correct": "7",
+      "answers": [
+        {
+          "answer": "5",
+          "isCorrect": false
+        },
+        {
+          "answer": "7",
+          "isCorrect": true
+        },
+        {
+          "answer": "3",
+          "isCorrect": false
+        },
+        {
+          "answer": "10",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "In the Project Planning Stage in waterfall, what is the role of the UID?",
+      "correct": "Plan the website",
+      "answers": [
+        {
+          "answer": "Plan the website ",
+          "isCorrect": true
+        },
+        {
+          "answer": "Gather the artifacts (images, graphics, and audio) ",
+          "isCorrect": false
+        },
+        {
+          "answer": "Rough draft storyboard, mood board, and wire frames ",
+          "isCorrect": false
+        },
+        {
+          "answer": "Watch other team members do work ",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the main overall deliverable in stage 2 of the 7 stages in waterfall? ",
+      "correct": "Target audience analysis",
+      "answers": [
+        {
+          "answer": "Early application testing ",
+          "isCorrect": false
+        },
+        {
+          "answer": "Application analysis ",
+          "isCorrect": false
+        },
+        {
+          "answer": "Target audience analysis",
+          "isCorrect": true
+        },
+        {
+          "answer": "Deliver a technical design document ",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the first key to the Systems Design Stage? ",
+      "correct": "Gathering and organizing ideas",
+      "answers": [
+        {
+          "answer": "Conceptual Design Document (CDD)",
+          "isCorrect": false
+        },
+        {
+          "answer": "Gathering and organizing ideas",
+          "isCorrect": true
+        },
+        {
+          "answer": "Creating a Style Guide ",
+          "isCorrect": false
+        },
+        {
+          "answer": "Writing sample code ",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the main goal of the Implementation Stage? ",
+      "correct": "Incubated version of the application/website",
+      "answers": [
+        {
+          "answer": "Implement your ideas into action ",
+          "isCorrect": false
+        },
+        {
+          "answer": "Developers begin to compile code ",
+          "isCorrect": false
+        },
+        {
+          "answer": "Target a specific audience for the application ",
+          "isCorrect": false
+        },
+        {
+          "answer": "Incubated version of the application/website",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "In the integration and testing stage, what new role does the UID take on? ",
+      "correct": "Tester",
+      "answers": [
+        {
+          "answer": "Tester",
+          "isCorrect": true
+        },
+        {
+          "answer": "Developer",
+          "isCorrect": false
+        },
+        {
+          "answer": "Photographer",
+          "isCorrect": false
+        },
+        {
+          "answer": "Analyst",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "In stage 6 of the SDLC waterfall method, the main deliverable is?",
+      "correct": "An environment specification definition",
+      "answers": [
+        {
+          "answer": "HTML webpages on a server",
+          "isCorrect": false
+        },
+        {
+          "answer": "A web server farm",
+          "isCorrect": false
+        },
+        {
+          "answer": "A specific production environment chosen by the client",
+          "isCorrect": false
+        },
+        {
+          "answer": "An environment specification definition",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "The main role of the UID in the final stage of waterfall is?",
+      "correct": "Responsibility and upkeep of the website artifacts",
+      "answers": [
+        {
+          "answer": "Responsibility and upkeep of the website artifacts",
+          "isCorrect": true
+        },
+        {
+          "answer": "There is no real difference",
+          "isCorrect": false
+        },
+        {
+          "answer": "The request is JSON, the response is XML",
+          "isCorrect": false
+        },
+        {
+          "answer": "The response outputs a webpage",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What percentage of the world currently still uses the waterfall method?",
+      "correct": "9%",
+      "answers": [
+        {
+          "answer": "15%",
+          "isCorrect": false
+        },
+        {
+          "answer": "7%",
+          "isCorrect": false
+        },
+        {
+          "answer": "24%",
+          "isCorrect": false
+        },
+        {
+          "answer": "9%",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "What is the ideal project setting in SDLC waterfall method suited for?",
+      "correct": "Smaller projects",
+      "answers": [
+        {
+          "answer": "Smaller projects",
+          "isCorrect": true
+        },
+        {
+          "answer": "Larger projects",
+          "isCorrect": false
+        },
+        {
+          "answer": "Every project",
+          "isCorrect": false
+        },
+        {
+          "answer": "Enterprise level projects",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
